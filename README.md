@@ -1,2 +1,2 @@
-# k8s-sandbox
-Learning microservices architecture using k8s
+# k8s-helm
+Learning microservices architecture using k8s and helm
