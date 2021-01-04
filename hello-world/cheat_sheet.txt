@@ -1,0 +1,5 @@
+get host IP from minikube
+minikube ssh grep host.minikube.internal /etc/hosts
+
+Netshoot debug
+kubectl run --image=nicolaka/netshoot neetshoot --restart=Never -ti

@@ -2,11 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+replicaCount: 2
 
 image:
-  repository: "hello-world"
-  tag: "1.0"
+  repository: joshiaj/tax-calculator
+  tag: "1.1.0"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -37,7 +37,7 @@ securityContext: {}
 
 service:
   type: NodePort
-  port: 80
+  port: 8080
 
 ingress:
   enabled: false
